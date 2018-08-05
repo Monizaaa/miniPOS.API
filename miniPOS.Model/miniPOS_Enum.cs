@@ -36,5 +36,17 @@ namespace miniPOS.Model
             [Description("InActive")]
             OPEN = -300,
         }
+
+        public enum USER_TYPE
+        {
+            [Description("System Admin")]
+            SYSTEM_ADMIN = 0,
+
+            [Description("Ownner")]
+            OWNNER = 100,
+
+            [Description("Employee")]
+            EMPLOYEE = 200,
+        }
     }
 }
